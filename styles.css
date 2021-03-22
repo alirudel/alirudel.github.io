@@ -1,0 +1,163 @@
+
+body {
+  background-color: #ffffff;
+}
+
+
+h1 {
+  font-family: 'Prata', 'serif';
+  font-size: 12vw;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  color: #0F084B;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  display: inline-flex;
+  text-align: start;
+}
+
+h2 {
+  font-family: 'Prata', 'serif';
+  color: #26408B;
+  text-transform: lowercase;
+}
+
+h3 {
+  color: #26408B;
+  font-family: 'Prata', 'serif';
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h4 {
+  color: #0F084B;
+  font-family: 'Prata', 'serif';
+}
+
+
+h5 {
+  font-family: 'open sans', 'sans-serif';
+  color: #26408B;
+  text-transform: lowercase;
+  display: inline-flex;
+}
+
+.intro {
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+
+.arrow {
+  animation: fadeIn 1.5s infinite alternate;
+}
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.section-headerz-right {
+  font-style: italic;
+  font-size: 2.5em;
+  text-align: right;
+  transition: transform 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.section-headerz-right:hover{
+  transform: translateX(-0.5em);
+}
+
+.section-headerz-left {
+  font-style: italic;
+  font-size: 2.5em;
+  text-align: left;
+  transition: transform 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.section-headerz-left:hover{
+  transform: translateX(0.5em);
+}
+
+p {
+  color: #0D0221;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-align:justify;
+}
+
+.accordion-header p {
+  font-weight: 600;
+}
+
+
+ul, li {
+  color: #0D0221;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-align:justify;
+  list-style-type: none;
+}
+
+
+.navigation-bar {
+    background-color: #C2E7D9;
+    color: #0D0221;
+}
+
+
+.dropdown-menu {
+  background-color: #C2E7D9;
+}
+
+.dropdown-item{
+  color: #0F084B;
+}
+
+.dropdown-item:hover {
+  background-color: #e7f1fd;
+}
+
+.nav-link {
+  color: #0D0221;
+}
+
+.btn {
+  font-family: 'open sans';
+  color:#0F084B;
+}
+
+.btn:hover {
+  background-color: #e7f1fd;
+}
+
+.typewriter p{
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #e7f1fd;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  width: 100%;
+  animation: type 1s cubic-bezier(0.68, -0.6, 0.32, 1.6); 
+}
+
+.typewriter p:nth-child(2){
+  animation: type2 2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.typewriter p:nth-child(3){
+  animation: type3 3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+@keyframes type3{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
