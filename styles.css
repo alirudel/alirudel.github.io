@@ -47,12 +47,10 @@ h5 {
   letter-spacing: 0.05em;
 }
 
-
-.arrow {
-  animation: fadeIn 1.5s infinite alternate;
-}
-@keyframes fadeIn { 
-  from { opacity: 0; } 
+.projects {
+  font-family: "open sans";
+  font-size: 6vw;
+  background-color: #e7f1fd;
 }
 
 .section-headerz-right {
@@ -97,6 +95,9 @@ ul, li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
 
 .navigation-bar {
     background-color: #C2E7D9;
@@ -123,10 +124,13 @@ ul, li {
 .btn {
   font-family: 'open sans';
   color:#0F084B;
+  border-color: lightgray;
 }
 
 .btn:hover {
   background-color: #e7f1fd;
+  border-color:lightskyblue;
+  border-width: 0.1em;
 }
 
 .typewriter p{
